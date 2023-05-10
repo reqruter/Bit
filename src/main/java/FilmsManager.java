@@ -18,10 +18,10 @@ public class FilmsManager {
 
     public String[] FindLast() {
         int resultLength;
-        if (films.length<5){
-            resultLength= films.length;
-        }else {
-            resultLength=5;
+        if (films.length < 5) {
+            resultLength = films.length;
+        } else {
+            resultLength = 5;
         }
         String[] tmp = new String[resultLength];
         for (int i = 0; i < tmp.length; i++) {

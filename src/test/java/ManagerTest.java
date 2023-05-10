@@ -12,6 +12,7 @@ public class ManagerTest {
         String[] expected = {"Movie I", "Movie II", "Movie III"};
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void Test1() {
         FilmsManager manager = new FilmsManager();
@@ -20,11 +21,12 @@ public class ManagerTest {
         String[] expected = {"Movie I"};
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void Test2() {
         FilmsManager manager = new FilmsManager();
         String[] actual = manager.FindAll();
-        String[] expected={};
+        String[] expected = {};
         Assertions.assertArrayEquals(expected, actual);
     }
 }
